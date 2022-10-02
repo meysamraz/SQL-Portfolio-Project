@@ -7,7 +7,52 @@ their head office is in Delhi India and they have a lot of regional offices thro
 
 This is real world project with real world database and the owners facsing a real challenge to slove شnd I said that it would be good to use this database that comes from a real environment to show my skills
 
-### Project Overwiew : 
+## Project Overwiew : 
+
+### Mysql Versoin : 8.0.27
+
+### Database : sales
+
+### Tables :
+
+### customers :
+
+-- customer_code  -  varchar(45)
+----------------------------------
+-- custmer_name   -  varchar(45)
+----------------------------------
+-- customer_type  -  varchar(45)
+
+### markets :
+
+-- customer_code  -  varchar(45)
+----------------------------------
+-- markets_name   -  varchar(45)
+----------------------------------
+-- zone           -  varchar(45)
+
+### products :
+
+-- product_code   -  varchar(45)
+----------------------------------
+-- product_type   -  varchar(45)
+
+
+### transactions : 
+
+-- product_code   -  varchar(45)
+----------------------------------
+-- customer_code  -  varchar(45)
+----------------------------------
+-- market_code    -  varchar(45)
+----------------------------------
+-- order_date     -  date
+----------------------------------
+-- sales_qty      -  int
+----------------------------------
+-- sales_amount   -  double
+
+
 
 ### 1 - Cleaning data :
 
@@ -25,59 +70,67 @@ This is real world project with real world database and the owners facsing a rea
 
 #### 5 - Update zones outside of india from null to 'Outside India'
 
+
 ### 2 - Analayzing data :
-- 1  -  Describe tabels (null values , foreign key , dtypes ...)
-- 2  -  First 10 rows of tables
-- 3  -  Number of rows in each table 
-
-#### 6 -  All unique Payment currency + count 
 
 
-#### 10 - Total sales amount and total sales quantity
+#### 1 -  Describe tabels (null values , foreign key , dtypes ...)
 
 
-#### 11 -  Market_codes total sales quantity and total sales amount in total sales amount desc order 
+#### 2 -  First 10 rows of tables
 
 
-#### 12 -  TotaL sales amount and percentage for each markets_name
+#### 3 -  Number of rows in each table 
 
 
-#### 13 -  Top 10 customer with sales amount and total sales quantity
+#### 4 -  All unique Payment currency + count 
 
 
-#### 14 -  Top 5 product with sales amount and sales quantity
+#### 5 - Total sales amount and total sales quantity
 
 
-#### 15 -  All unique market zones 
+#### 6 -  Market_codes total sales quantity and total sales amount in total sales amount desc order 
 
 
-#### 16 -  Update zones outside of india from null to 'Outside India'
+#### 7 -  TotaL sales amount and percentage for each markets_name
 
 
-#### 17 -  Top market sales in each zone 
+#### 8 -  Top 10 customer with sales amount and total sales quantity
 
 
-#### 18 -  Yearly sales amount,sales quantity
+#### 9 -  Top 5 product with sales amount and sales quantity
 
 
-#### 19 -  Last 7 days sales_amount sales_qty 
+#### 10 -  All unique market zones 
 
 
-#### 20 -  Minimum | Avarage | Maximum  sales_amount 
+#### 11 -  Update zones outside of india from null to 'Outside India'
 
 
-#### 21 -  Apply statistic 
--  1 - Get Mean of sales_qty and sales_amount 
--  2 - Get Varince of sales_qty and sales_amount 
--  3 - Get Standard Deviation of sales_qty and sales_amount
--  4 - Get Covariance between sales_qty and sales_amount  
--  5 - Get Correlation Coefficient between sales_qty and sales_amount
+#### 12 -  Top market sales in each zone 
 
 
-#### 22 -  Extract customer name by spliting custmer_name column 
+#### 13 -  Yearly sales amount,sales quantity
 
 
-#### 23 -  Yealry sales amount diffrance (delta)
+#### 14 -  Last 7 days sales_amount sales_qty 
 
 
-#### 24 -  monthley sales amount precnt diffreance (delta)
+#### 15 -  Minimum | Avarage | Maximum  sales_amount 
+
+
+#### 16 -  Apply statistic 
+-  1 ) Get **Mean** of sales_qty and sales_amount 
+-  2 ) Get **Varince** of sales_qty and sales_amount 
+-  3 ) Get **Standard Deviation** of sales_qty and sales_amount
+-  4 ) Get **Covariance** between sales_qty and sales_amount  
+-  5 ) Get **Correlation Coefficient** between sales_qty and sales_amount
+
+
+#### 17 -  Extract customer name by spliting custmer_name column 
+
+
+#### 18 -  Yealry sales amount diffrance (delta)
+
+
+#### 19 -  monthley sales amount precnt diffreance (delta)
