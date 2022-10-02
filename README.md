@@ -7,7 +7,7 @@ their head office is in Delhi India and they have a lot of regional offices thro
 
 This is real world project with real world database and the owners facsing a real challenge to slove شnd I said that it would be good to use this database that comes from a real environment to show my skills
 
-## Project Overwiew : 
+# Project Overwiew : 
 
 ### Mysql Versoin : 8.0.27
 
@@ -61,11 +61,12 @@ This is real world project with real world database and the owners facsing a rea
 
 
 
-### 1 - Cleaning data :
+## 1 - Cleaning data :
 
 #### 1 - Drop records with sales amount below 0
 
 #### 2 - Equalization and conversion of currencies : 
+
 -  1 ) Unification of currencies by removing spaces and prepositions
 -  2 ) Covert USD TO INR by Using the average exchange rate of rupees per year (2017,2018,2019,2020)
 -  3 ) Update currency Into INR Where currency = USD 
@@ -78,7 +79,7 @@ This is real world project with real world database and the owners facsing a rea
 #### 5 - Update zones outside of india from null to 'Outside India'
 
 
-### 2 - Analayzing data :
+## 2 - Analayzing data :
 
 
 #### 1 -  Describe tabels (null values , foreign key , dtypes ...)
