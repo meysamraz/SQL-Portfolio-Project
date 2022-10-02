@@ -5,7 +5,7 @@ their head office is in Delhi India and they have a lot of regional offices thro
 
 ### Why did I choose this database ? 
 
-This is real world project with real world database and the owners facsing a real challenge to slove شnd I said that it would be good to use this database that comes from a real environment to show my skills
+This is real world project with real world database and the owners facsing a real challenge to slove and I said that it would be good to use this database that comes from a real environment to show my skills
 
 # Project Overwiew : 
 
