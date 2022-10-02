@@ -25,11 +25,11 @@ This is real world project with real world database and the owners facsing a rea
 
 ### markets :
 
-- -- customer_code  -  varchar(45)
+-- customer_code  -  varchar(45)
 ----------------------------------
-- -- markets_name   -  varchar(45)
-- ----------------------------------
-- -- zone           -  varchar(45)
+-- markets_name   -  varchar(45)
+----------------------------------
+-- zone           -  varchar(45)
 
 ### products :
 
