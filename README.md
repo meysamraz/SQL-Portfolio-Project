@@ -17,29 +17,35 @@ This is real world project with real world database and the owners facsing a rea
 
 ### customers :
 
+```
 -- customer_code  -  varchar(45)
 ----------------------------------
 -- custmer_name   -  varchar(45)
 ----------------------------------
 -- customer_type  -  varchar(45)
+```
 
 ### markets :
 
+```
 -- customer_code  -  varchar(45)
 ----------------------------------
 -- markets_name   -  varchar(45)
 ----------------------------------
 -- zone           -  varchar(45)
+```
 
 ### products :
 
+```
 -- product_code   -  varchar(45)
 ----------------------------------
 -- product_type   -  varchar(45)
-
+```
 
 ### transactions : 
 
+```
 -- product_code   -  varchar(45)
 ----------------------------------
 -- customer_code  -  varchar(45)
@@ -51,6 +57,7 @@ This is real world project with real world database and the owners facsing a rea
 -- sales_qty      -  int
 ----------------------------------
 -- sales_amount   -  double
+```
 
 
 
