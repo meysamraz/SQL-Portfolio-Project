@@ -1,7 +1,7 @@
 # company sales analysis 
 In this portfolio project, I tried to analyze the data of the AtliQ Hardware using SQL and show my SQL skills. 
 AtliQ hardwer is a company Which supplies computer hardware and peripharals to thier clients
-their head office is in Delhi India and they have a lot of regional offices throughout the india and thier market is growing dynamically and they have some issue in  tracking the sales in diffrent regions and they have this database collectin sales data that im gonna use analayze
+their head office is in Delhi India and they have a lot of regional offices throughout the india and thier market is growing dynamically and they have some issue in  tracking the sales in diffrent regions and they have this database collection of sales data that im gonna use analayze
 
 ### Why did I choose this database ? 
 
