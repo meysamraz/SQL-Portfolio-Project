@@ -153,7 +153,7 @@ SELECT *
 FROM markets 
 LIMIT 10;
 
-select * 
+SELECT * 
 FROM products 
 LIMIT 10;
 
